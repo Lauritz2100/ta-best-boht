@@ -1,0 +1,125 @@
+[37.762880325] 2017-12-09 12:30:11,213 - INFO - launcher: Starting sanity checks
+[37.762880325] 2017-12-09 12:30:11,213 - INFO - launcher: Checking for python 3.5+
+[37.762880325] 2017-12-09 12:30:11,213 - INFO - launcher: Checking console encoding
+[37.762880325] 2017-12-09 12:30:11,213 - INFO - launcher: Setting console encoding to UTF-8
+[37.762880325] 2017-12-09 12:30:11,213 - INFO - launcher: Ensuring we're in the right folder
+[37.762880325] 2017-12-09 12:30:11,213 - INFO - launcher: Adding local bins/ folder to path
+[37.762880325] 2017-12-09 12:30:11,213 - INFO - launcher: Checks passed.
+[37.762880325] 2017-12-09 12:30:11,213 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.4865279197692871] 2017-12-09 12:30:12,662 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 203 in _setup_logging: Set logging level to INFO
+[1.4865279197692871] 2017-12-09 12:30:12,662 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 76 in __init__: Loaded autoplaylist with 2531 entries
+[1.524288654] launcher-INFO: Connecting
+[4.7077796459197998] 2017-12-09 12:30:15,883 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 993 in on_ready: Connection established, ready to go.
+[4.7077796459197998] 2017-12-09 12:30:15,883 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 314 in _cache_app_info: Caching app info
+[4.8458054065704346] 2017-12-09 12:30:16,021 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[4.8458054065704346] 2017-12-09 12:30:16,021 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 826 in _scheck_server_permissions: Checking server permissions
+[4.8458054065704346] 2017-12-09 12:30:16,021 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[4.8458054065704346] 2017-12-09 12:30:16,021 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 834 in _scheck_configs: Validating config
+[4.8458054065704346] 2017-12-09 12:30:16,021 - DEBUG - musicbot.config | In config.py::MainThread(10176), line 175 in async_validate: Validating options...
+[4.8458054065704346] 2017-12-09 12:30:16,021 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 837 in _scheck_configs: Validating permissions config
+[4.8458054065704346] 2017-12-09 12:30:16,021 - DEBUG - musicbot.permissions | In permissions.py::MainThread(10176), line 59 in async_validate: Validating permissions...
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1014 in on_ready: Bot:   388783457095909396/Ta best boht#9383 [BOT]
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1022 in on_ready: Owner: 342619243931762699/Lauritz2100#1680
+
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1025 in on_ready: Server List:
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1026 in <listcomp>:  - Gaming/chat
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1070 in on_ready: Not bound to any text channels
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1096 in on_ready: Not autojoining any voice channels
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1100 in on_ready: Options:
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1102 in on_ready:   Command prefix: !
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1103 in on_ready:   Default volume: 25%
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1105 in on_ready:   Skip threshold: 4 votes or 50%
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[4.8458054065704346] 2017-12-09 12:30:16,021 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1107 in on_ready:   Auto-Summon: Enabled
+[4.8614327907562256] 2017-12-09 12:30:16,037 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1108 in on_ready:   Auto-Playlist: Enabled
+[4.8614327907562256] 2017-12-09 12:30:16,037 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1109 in on_ready:   Auto-Pause: Enabled
+[4.8614327907562256] 2017-12-09 12:30:16,037 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1110 in on_ready:   Delete Messages: Enabled
+[4.8614327907562256] 2017-12-09 12:30:16,037 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1112 in on_ready:     Delete Invoking: Disabled
+[4.8614327907562256] 2017-12-09 12:30:16,037 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1113 in on_ready:   Debug Mode: Disabled
+[4.8614327907562256] 2017-12-09 12:30:16,037 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1114 in on_ready:   Downloaded songs will be saved
+[58.7156825065612793] 2017-12-09 12:31:09,891 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10176), line 2528 in on_voice_state_update: Voice state update for 342619243931762699/Lauritz2100#1680 on Gaming/chat/Music -> [CONNECT, MUTE]
+[148.7512059211730957] 2017-12-09 12:32:39,927 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2359 in on_message: 342619243931762699/Lauritz2100#1680: !summon
+[148.7532017230987549] 2017-12-09 12:32:39,929 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 1769 in cmd_summon: Joining Gaming/chat/Music
+[148.7547023296356201] 2017-12-09 12:32:39,930 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 427 in get_voice_client: Connection attempt 1 to Music
+[148.7547023296356201] 2017-12-09 12:32:39,930 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10176), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[148.7562067508697510] 2017-12-09 12:32:39,932 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10176), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[148.7567040920257568] 2017-12-09 12:32:39,932 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10176), line 375 in join_voice_channel: (join_voice_channel) waiting for session id
+[148.8960316181182861] 2017-12-09 12:32:40,071 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10176), line 2528 in on_voice_state_update: Voice state update for 388783457095909396/Ta best boht#9383 on Gaming/chat/Music -> [JOIN, CONNECT]
+[148.8965289592742920] 2017-12-09 12:32:40,072 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2539 in on_voice_state_update: 388783457095909396/Ta best boht#9383 has joined Gaming/chat/Music
+[148.8985307216644287] 2017-12-09 12:32:40,074 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10176), line 379 in join_voice_channel: (join_voice_channel) waiting for voice data
+[149.0211143493652344] 2017-12-09 12:32:40,196 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10176), line 393 in join_voice_channel: (join_voice_channel) connecting...
+[149.2694869041442871] 2017-12-09 12:32:40,445 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10176), line 405 in join_voice_channel: (join_voice_channel) connection successful
+[149.2699832916259766] 2017-12-09 12:32:40,445 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 453 in get_voice_client: Connected in 0.5s
+[149.2704865932464600] 2017-12-09 12:32:40,446 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 454 in get_voice_client: Connected to Gaming/chat/Music
+[149.2937617301940918] 2017-12-09 12:32:40,469 - VOICEDEBUG - musicbot.player | In player.py::MainThread(10176), line 311 in websocket_check: Starting websocket check loop for Gaming/chat
+[151.9934520721435547] 2017-12-09 12:32:43,169 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 219 in _really_download: Download started: https://youtube.com/watch?v=x5gAl119keA
+[154.2020275592803955] 2017-12-09 12:32:45,377 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 226 in _really_download: Download complete: https://youtube.com/watch?v=x5gAl119keA
+[154.2100362777709961] 2017-12-09 12:32:45,385 - FFMPEG - musicbot.player | In player.py::MainThread(10176), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-x5gAl119keA-PAINTED_RHYTHM_by_Stan_Kenton_1945_Swing_Jazz.webm
+[154.7098197937011719] 2017-12-09 12:32:45,885 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 763 in serialize_queue: Serializing queue for 344507751797358592
+[168.0651545524597168] 2017-12-09 12:32:59,240 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10176), line 2528 in on_voice_state_update: Voice state update for 342619243931762699/Lauritz2100#1680 on Gaming/chat/Music -> [LEAVE, DISCONNECT]
+[168.0661523342132568] 2017-12-09 12:32:59,241 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2539 in on_voice_state_update: 342619243931762699/Lauritz2100#1680 has left Gaming/chat/Music
+[168.0676524639129639] 2017-12-09 12:32:59,243 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2577 in on_voice_state_update: Pausing in Gaming/chat/Music (empty channel)
+[591.1035277843475342] 2017-12-09 12:40:02,279 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10176), line 2528 in on_voice_state_update: Voice state update for 342619243931762699/Lauritz2100#1680 on Gaming/chat/Music -> [JOIN, CONNECT]
+[591.1035277843475342] 2017-12-09 12:40:02,279 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2539 in on_voice_state_update: 342619243931762699/Lauritz2100#1680 has joined Gaming/chat/Music
+[591.1035277843475342] 2017-12-09 12:40:02,279 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2567 in on_voice_state_update: Unpausing in Gaming/chat/Music
+[648.3551571369171143] 2017-12-09 12:40:59,530 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2359 in on_message: 342619243931762699/Lauritz2100#1680: !skip
+[651.0533249378204346] 2017-12-09 12:41:02,229 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 219 in _really_download: Download started: https://youtube.com/watch?v=0LWHowDwKn4
+[652.6917824745178223] 2017-12-09 12:41:03,867 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 226 in _really_download: Download complete: https://youtube.com/watch?v=0LWHowDwKn4
+[653.0562582015991211] 2017-12-09 12:41:04,232 - FFMPEG - musicbot.player | In player.py::MainThread(10176), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-0LWHowDwKn4-Michael_Calfan_-_Prelude_Radio_Edit.webm
+[653.0742692947387695] 2017-12-09 12:41:04,250 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 763 in serialize_queue: Serializing queue for 344507751797358592
+[827.9750444889068604] 2017-12-09 12:43:59,150 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 219 in _really_download: Download started: https://youtube.com/watch?v=jl067ilGr54
+[829.7928683757781982] 2017-12-09 12:44:00,968 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 226 in _really_download: Download complete: https://youtube.com/watch?v=jl067ilGr54
+[829.9748752117156982] 2017-12-09 12:44:01,150 - FFMPEG - musicbot.player | In player.py::MainThread(10176), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-jl067ilGr54-Queen_-_I_Want_To_Break_Free_Remastered_2011.webm
+[829.9998936653137207] 2017-12-09 12:44:01,175 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 763 in serialize_queue: Serializing queue for 344507751797358592
+[1085.0778849124908447] 2017-12-09 12:48:16,253 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 219 in _really_download: Download started: https://youtube.com/watch?v=-pbsYf4Dc7w
+[1086.6917355060577393] 2017-12-09 12:48:17,867 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 226 in _really_download: Download complete: https://youtube.com/watch?v=-pbsYf4Dc7w
+[1087.0768988132476807] 2017-12-09 12:48:18,252 - FFMPEG - musicbot.player | In player.py::MainThread(10176), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube--pbsYf4Dc7w-Lucas_Steve_-_Can_t_Get_Enough_Official_Music_Video.webm
+[1087.1024186611175537] 2017-12-09 12:48:18,278 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 763 in serialize_queue: Serializing queue for 344507751797358592
+[1246.0852324962615967] 2017-12-09 12:50:57,261 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 219 in _really_download: Download started: https://youtube.com/watch?v=E5s6jcuw6NM
+[1247.5616741180419922] 2017-12-09 12:50:58,737 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 226 in _really_download: Download complete: https://youtube.com/watch?v=E5s6jcuw6NM
+[1248.0815184116363525] 2017-12-09 12:50:59,257 - FFMPEG - musicbot.player | In player.py::MainThread(10176), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-E5s6jcuw6NM-MF_DOOM_-_Kon_Karne.webm
+[1248.0935263633728027] 2017-12-09 12:50:59,269 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 763 in serialize_queue: Serializing queue for 344507751797358592
+[1421.6758008003234863] 2017-12-09 12:53:52,851 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 219 in _really_download: Download started: https://youtube.com/watch?v=xJzE1m9aELk
+[1423.2420473098754883] 2017-12-09 12:53:54,417 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 226 in _really_download: Download complete: https://youtube.com/watch?v=xJzE1m9aELk
+[1423.6847317218780518] 2017-12-09 12:53:54,860 - FFMPEG - musicbot.player | In player.py::MainThread(10176), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-xJzE1m9aELk-Stone_Sour_-_30_30-150_OFFICIAL_VIDEO.webm
+[1423.7097458839416504] 2017-12-09 12:53:54,885 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 763 in serialize_queue: Serializing queue for 344507751797358592
+[1691.0017900466918945] 2017-12-09 12:58:22,177 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 219 in _really_download: Download started: https://youtube.com/watch?v=mzGwHKIYo9c
+[1692.6853511333465576] 2017-12-09 12:58:23,861 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 226 in _really_download: Download complete: https://youtube.com/watch?v=mzGwHKIYo9c
+[1692.9909884929656982] 2017-12-09 12:58:24,166 - FFMPEG - musicbot.player | In player.py::MainThread(10176), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-mzGwHKIYo9c-Run_The_Jewels_-_A_Christmas_Fucking_Miracle_from_the_Run_The_Jewels_album.webm
+[1693.0155057907104492] 2017-12-09 12:58:24,191 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 763 in serialize_queue: Serializing queue for 344507751797358592
+[1867.9432890415191650] 2017-12-09 13:01:19,119 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2359 in on_message: 342619243931762699/Lauritz2100#1680: !queue
+[1956.7895812988281250] 2017-12-09 13:02:47,965 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 219 in _really_download: Download started: https://youtube.com/watch?v=NZhFMC0_mTk
+[1958.2573101520538330] 2017-12-09 13:02:49,433 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 226 in _really_download: Download complete: https://youtube.com/watch?v=NZhFMC0_mTk
+[1958.7938032150268555] 2017-12-09 13:02:49,969 - FFMPEG - musicbot.player | In player.py::MainThread(10176), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-NZhFMC0_mTk-Don_Diablo_-_On_My_Mind_Official_Radio_Edit_Free_Download.webm
+[1958.8123159408569336] 2017-12-09 13:02:49,988 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 763 in serialize_queue: Serializing queue for 344507751797358592
+[2147.6993050575256348] 2017-12-09 13:05:58,875 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 219 in _really_download: Download started: https://youtube.com/watch?v=gx4jaqmTVRE
+[2149.9087884426116943] 2017-12-09 13:06:01,084 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 226 in _really_download: Download complete: https://youtube.com/watch?v=gx4jaqmTVRE
+[2149.9132926464080811] 2017-12-09 13:06:01,089 - FFMPEG - musicbot.player | In player.py::MainThread(10176), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-gx4jaqmTVRE-Akercocke_-_Verdelet.webm
+[2149.9242997169494629] 2017-12-09 13:06:01,100 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 763 in serialize_queue: Serializing queue for 344507751797358592
+[2287.2614970207214355] 2017-12-09 13:08:18,437 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2359 in on_message: 342619243931762699/Lauritz2100#1680: !help
+[2302.2626733779907227] 2017-12-09 13:08:33,438 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2359 in on_message: 342619243931762699/Lauritz2100#1680: !help x
+[2340.2808859348297119] 2017-12-09 13:09:11,456 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2359 in on_message: 342619243931762699/Lauritz2100#1680: !listids
+[2439.6962273120880127] 2017-12-09 13:10:50,872 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 219 in _really_download: Download started: https://youtube.com/watch?v=zpNrrdLo4Wk
+[2441.4613964557647705] 2017-12-09 13:10:52,637 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 226 in _really_download: Download complete: https://youtube.com/watch?v=zpNrrdLo4Wk
+[2441.6994202136993408] 2017-12-09 13:10:52,875 - FFMPEG - musicbot.player | In player.py::MainThread(10176), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-zpNrrdLo4Wk-Royce_da_5_9_-_Layers_Audio_ft._Pusha_T_Rick_Ross.webm
+[2441.7099268436431885] 2017-12-09 13:10:52,885 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 763 in serialize_queue: Serializing queue for 344507751797358592
+[2596.8773922920227051] 2017-12-09 13:13:28,053 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2359 in on_message: 342619243931762699/Lauritz2100#1680: !help
+[2703.8425495624542236] 2017-12-09 13:15:15,018 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 219 in _really_download: Download started: https://youtube.com/watch?v=sZLKtjATZt0
+[2705.4857740402221680] 2017-12-09 13:15:16,661 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 226 in _really_download: Download complete: https://youtube.com/watch?v=sZLKtjATZt0
+[2705.8350846767425537] 2017-12-09 13:15:17,010 - FFMPEG - musicbot.player | In player.py::MainThread(10176), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-sZLKtjATZt0-Van_Halen_-_Dreams.webm
+[2705.8510980606079102] 2017-12-09 13:15:17,026 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 763 in serialize_queue: Serializing queue for 344507751797358592
+[3008.3951840400695801] 2017-12-09 13:20:19,570 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 219 in _really_download: Download started: https://youtube.com/watch?v=KfDr_7LN-Ew
+[3010.0321447849273682] 2017-12-09 13:20:21,207 - INFO - musicbot.entry | In entry.py::MainThread(10176), line 226 in _really_download: Download complete: https://youtube.com/watch?v=KfDr_7LN-Ew
+[3010.3891327381134033] 2017-12-09 13:20:21,564 - FFMPEG - musicbot.player | In player.py::MainThread(10176), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-KfDr_7LN-Ew-Maddie_Tae_-_Fly.webm
+[3010.4066438674926758] 2017-12-09 13:20:21,582 - DEBUG - musicbot.bot | In bot.py::MainThread(10176), line 763 in serialize_queue: Serializing queue for 344507751797358592
+[3093.1848134994506836] 2017-12-09 13:21:44,360 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10176), line 2528 in on_voice_state_update: Voice state update for 342619243931762699/Lauritz2100#1680 on Gaming/chat/Music -> [LEAVE, DISCONNECT]
+[3093.1853139400482178] 2017-12-09 13:21:44,361 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2539 in on_voice_state_update: 342619243931762699/Lauritz2100#1680 has left Gaming/chat/Music
+[3093.1883156299591064] 2017-12-09 13:21:44,364 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2577 in on_voice_state_update: Pausing in Gaming/chat/Music (empty channel)
+[4225.5115413665771484] 2017-12-09 13:40:36,687 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10176), line 2528 in on_voice_state_update: Voice state update for 342619243931762699/Lauritz2100#1680 on Gaming/chat/Music -> [JOIN, CONNECT]
+[4225.5125422477722168] 2017-12-09 13:40:36,688 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2539 in on_voice_state_update: 342619243931762699/Lauritz2100#1680 has joined Gaming/chat/Music
+[4225.5145425796508789] 2017-12-09 13:40:36,690 - INFO - musicbot.bot | In bot.py::MainThread(10176), line 2567 in on_voice_state_update: Unpausing in Gaming/chat/Music
